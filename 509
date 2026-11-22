@@ -1,0 +1,13 @@
+inventory = {
+    "sword": 1,
+    "pick": 1,
+    "gold": 2,
+    "lazuli": 45,
+    "meat": 14
+}
+
+print("Equipment:")
+for item, count in inventory.items():
+    print(count, item)
+
+print("Total number of things:", sum(inventory.values()))
