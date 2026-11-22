@@ -1,0 +1,10 @@
+users = {676: "Olya", 777: "Denis", 191: "Valya"}
+
+ids = input().split()
+
+for item in ids:
+    uid = int(item)
+    if uid in users:
+        print(f"Hi, {users[uid]}!")
+    else:
+        print("Hi, to all!")
