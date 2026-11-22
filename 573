@@ -1,0 +1,5 @@
+a = set(map(int, input("Введіть числа:").split()))
+b = set(map(int, input("Введіть числа:").split()))
+
+common = sorted(a & b)
+print(*common)
